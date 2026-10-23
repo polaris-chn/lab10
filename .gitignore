@@ -1,0 +1,29 @@
+# 仿真波形
+*.fsdb
+*.vcd
+*.wlf
+novas_dump.log
+ucli.key
+
+# Synopsys VCS 编译产物
+simv
+simv.daidir/
+csrc/
+*.daidir
+AN.DB/
+DVEfiles/
+
+# 大文本 trace
+fetch.txt
+wb_write.txt
+
+# 软件编译产物
+obj/
+inst/
+*.a
+*.o
+
+# Vivado 产物
+*.jou
+*.log
+.cache/
